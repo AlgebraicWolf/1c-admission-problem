@@ -9,7 +9,7 @@ filename = input("Specify input filename: ")
 linewidth_str = input(
     "Would you mind providing us with an approximate line width for better performance? Enter it or zero (if you don't want us to know): ")
 
-linewidth = 0 if len(linewidth_str) = 0 else int(linewidth_str)
+linewidth = 0 if len(linewidth_str) == 0 else int(linewidth_str)
 
 if linewidth == 0:
     linewidth = 40  # Because that is what worked fine on my wacky rectangle example
